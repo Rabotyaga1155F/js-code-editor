@@ -1,0 +1,26 @@
+
+.codebar{
+
+    @apply  w-[600px] bg-basicblue relative;
+}
+
+
+.tab{
+    @apply flex items-center justify-center h-[72px] px-[15px] gap-[15px] border-b-2 border-black;
+}
+
+
+.item{
+    @apply flex h-[50px] flex-1 justify-center items-center rounded-[4px] bg-[#333] text-white cursor-pointer text-[15px] font-medium outline-0 border-none;
+}
+
+
+.activeTab{
+    @apply bg-green-500 text-white;
+}
+
+
+.editor{
+    height: calc(100vh - 70px);
+    @apply p-[10px];
+}

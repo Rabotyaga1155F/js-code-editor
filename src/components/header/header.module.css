@@ -1,0 +1,5 @@
+.header{
+    @apply h-[70px] flex-shrink-0 bg-basicblue text-white flex justify-end items-center border-b-2 border-black px-[15px] gap-[15px]
+
+}
+

@@ -1,0 +1,11 @@
+.content{
+    height: calc(100vh - 70px);
+}
+
+.content{
+    @apply w-full h-full
+}
+.loading{
+    @apply w-full h-full flex justify-center items-center text-[28px] font-bold bg-basicblue
+
+}
